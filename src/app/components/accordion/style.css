@@ -1,0 +1,19 @@
+.accordion_text{
+    color: #707070;
+    font-size: 1em;
+    line-height: 22px;
+    margin-top: 1.5em;
+}
+
+.accordion_main_box{
+    transition: 0.3s ease-in-out;
+    visibility: hidden;
+    opacity: 0;
+    display: none;
+}
+
+.accordion_main_box.show{
+    visibility: visible;
+    opacity: 1;
+    display: block;
+}
